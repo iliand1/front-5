@@ -3,7 +3,92 @@
 $font-family: "Inter", sans-serif;
 $dark-blue: hsl(240, 38%, 20%);
 $grayish-blue: hsl(240, 18%, 77%);
-$font-size:32px;
-$w-300:300;
-$w-500:500;
-$w-700:700;
+$font-size: 32px;
+$w-300: 300;
+$w-500: 500;
+$w-700: 700;
+body {
+  box-sizing: border-box;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-image: url("./images/pattern-bg.svg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $font-family;
+}
+.card {
+  width: 1000px;
+  height: 500px;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.57);
+  display: flex;
+  position: relative;
+  background-color: white;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.comment {
+  font-weight: $w-300;
+  font-size: $font-size;
+  z-index: 3;
+  position: relative;
+}
+.card__img img {
+  width: 400px;
+  height: 400px;
+  z-index: 1;
+  position: relative;
+  left: -50px;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.57);
+}
+span {
+  font-weight: $w-700;
+  color: $dark-blue;
+}
+.person {
+  display: flex;
+  font-weight: $w-300;
+  color: $grayish-blue;
+}
+.curve {
+  img {
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
+.quote {
+  img {
+    width: 80px;
+    height: 60px;
+    position: absolute;
+    top: 135px;
+    left: 100px;
+  }
+}
+.button-area {
+  display: flex;
+  position: relative;
+  width: 80px;
+  height: 50px;
+  z-index: 3;
+  left: 560px;
+  top: 65px;
+  border-radius: 100px 100px 100px 100px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.57);
+  img {
+    width: 14px;
+    height: 20px;
+  }
+}
+.button-left {
+  margin-right: 20px;
+}

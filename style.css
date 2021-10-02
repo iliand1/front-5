@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap");
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-image: url("./images/pattern-bg.svg");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Inter", sans-serif;
+}
+
+.card {
+  width: 1000px;
+  height: 500px;
+  -webkit-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.57);
+          box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.57);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  background-color: white;
+  padding: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.comment {
+  font-weight: 300;
+  font-size: 32px;
+  z-index: 3;
+  position: relative;
+}
+
+.card__img img {
+  width: 400px;
+  height: 400px;
+  z-index: 1;
+  position: relative;
+  left: -50px;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.57);
+          box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.57);
+}
+
+span {
+  font-weight: 700;
+  color: #202046;
+}
+
+.person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 300;
+  color: #babacf;
+}
+
+.curve img {
+  width: 500px;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.quote img {
+  width: 80px;
+  height: 60px;
+  position: absolute;
+  top: 135px;
+  left: 100px;
+}
+
+.button-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 80px;
+  height: 50px;
+  z-index: 3;
+  left: 560px;
+  top: 65px;
+  border-radius: 100px 100px 100px 100px;
+  background-color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.57);
+          box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.57);
+}
+
+.button-area img {
+  width: 14px;
+  height: 20px;
+}
+
+.button-left {
+  margin-right: 20px;
+}
