@@ -1,6 +1,6 @@
 document.querySelector(".button-left").addEventListener("click", left);
 document.querySelector(".button-right").addEventListener("click", right);
-counter = 0
+counter = 0;
 function left(params) {
   if (counter === 0) {
     document.querySelector(

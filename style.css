@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap");
 body {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   height: 100vh;
   padding: 0;
   margin: 0;
@@ -10,11 +10,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   font-family: "Inter", sans-serif;
 }
 
@@ -22,7 +22,7 @@ body {
   width: 1000px;
   height: 500px;
   -webkit-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.57);
-          box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.57);
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.57);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,11 +30,11 @@ body {
   background-color: white;
   padding: 50px;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .comment {
@@ -51,7 +51,7 @@ body {
   position: relative;
   left: -50px;
   -webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.57);
-          box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.57);
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.57);
 }
 
 .person-span {
@@ -96,16 +96,16 @@ body {
   border-radius: 100px 100px 100px 100px;
   background-color: white;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   -webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.57);
-          box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.57);
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.57);
 }
 
 .button-area img {
