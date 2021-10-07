@@ -43,11 +43,11 @@ body {
   left: -50px;
   box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.57);
 }
-span {
+.person-span {
   font-weight: $w-700;
   color: $dark-blue;
 }
-.person {
+.person-wrapper {
   display: flex;
   font-weight: $w-300;
   color: $grayish-blue;

@@ -54,12 +54,12 @@ body {
           box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.57);
 }
 
-span {
+.person-span {
   font-weight: 700;
   color: #202046;
 }
 
-.person {
+.person-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
