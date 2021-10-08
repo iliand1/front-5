@@ -48,4 +48,3 @@ function right(params) {
   document.querySelector(".person").innerHTML = "&nbsp;UX Engineer";
   counter = 0;
 }
-console.log("2");
