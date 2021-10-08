@@ -130,6 +130,7 @@ body {
             align-items: center;
   }
   .card {
+    margin-top: 15px;
     height: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
