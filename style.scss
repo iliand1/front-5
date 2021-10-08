@@ -92,3 +92,8 @@ body {
 .button-left {
   margin-right: 20px;
 }
+@media (max-width:501px) {
+  .card{
+    flex-direction: column;
+  }
+}

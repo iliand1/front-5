@@ -1,5 +1,5 @@
-document.querySelector(".button-left").addEventListener("click", left);
-document.querySelector(".button-right").addEventListener("click", right);
+// document.querySelector(".button-left").addEventListener("click", left);
+// document.querySelector(".button-right").addEventListener("click", right);
 counter = 0;
 function left(params) {
   if (counter === 0) {
@@ -48,3 +48,4 @@ function right(params) {
   document.querySelector(".person").innerHTML = "&nbsp;UX Engineer";
   counter = 0;
 }
+console.log("2");
