@@ -141,6 +141,8 @@ body {
     width: 500px;
     padding: 0;
     position: initial;
+    background-color: transparent;
+    border: 0;
   }
   .comment {
     margin-top: 80px;
